@@ -1,0 +1,420 @@
+/* =========================================================
+LIGHT MODE
+========================================================= */
+
+body:not(.dark-mode) .gallery-card {
+  background: #fff;
+}
+
+/* =========================================================
+NAVBAR
+========================================================= */
+
+body:not(.dark-mode) .custom-navbar {
+  background: transparent;
+}
+
+body:not(.dark-mode) .custom-navbar.scrolled {
+  background: rgba(0, 33, 74, 0.96);
+
+  backdrop-filter: blur(14px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+body:not(.dark-mode) .nav-link {
+  color: #fff;
+}
+
+body:not(.dark-mode) .nav-link:hover {
+  color: var(--accent);
+}
+
+body:not(.dark-mode) .theme-btn {
+  background: rgba(255, 255, 255, 0.08);
+
+  color: #fff;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* =========================================================
+SECTION TITLES
+========================================================= */
+
+body:not(.dark-mode) .section-title h2 {
+  color: var(--primary);
+}
+
+body:not(.dark-mode) .scroll-title h3 {
+  color: #fff;
+}
+
+/* =========================================================
+ABOUT SECTION
+========================================================= */
+
+body:not(.dark-mode) .about {
+  background: linear-gradient(to bottom, #ffffff 0%, #f4f7fb 50%, #edf3fa 100%);
+}
+
+body:not(.dark-mode) .about-text,
+body:not(.dark-mode) .feature-item span {
+  color: #555;
+}
+
+/* =========================================================
+REAL GALLERY + INFINITE SCROLL
+========================================================= */
+
+body:not(.dark-mode) .real-gallery,
+body:not(.dark-mode) .infinite-scroll {
+  background: #eaf1f8;
+}
+
+/* =========================================================
+STATS
+========================================================= */
+
+body:not(.dark-mode) .stats-card {
+  background: #fff;
+
+  color: #1e1e1e;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+body:not(.dark-mode) .stats-card p {
+  color: #555;
+}
+
+/* =========================================================
+WHY US
+========================================================= */
+
+body:not(.dark-mode) .why-us {
+  background: #f7f9fc;
+}
+
+body:not(.dark-mode) .why-card {
+  background: #fff;
+
+  color: #1e1e1e;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+body:not(.dark-mode) .why-card p {
+  color: #666;
+}
+
+/* =========================================================
+TESTIMONIALS
+========================================================= */
+
+body:not(.dark-mode) .testimonials {
+  background: #ffffff;
+}
+
+body:not(.dark-mode) .testimonial-card {
+  background: #fff;
+
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+body:not(.dark-mode) .testimonial-card p,
+body:not(.dark-mode) .testimonial-card h4 {
+  color: #1e1e1e;
+}
+
+/* =========================================================
+CONTACT
+========================================================= */
+
+body:not(.dark-mode) .contact {
+  background: linear-gradient(to bottom, #f4f7fb, #eaf1f8);
+}
+
+body:not(.dark-mode) .contact-form-box,
+body:not(.dark-mode) .location-box {
+  background: #fff;
+
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+body:not(.dark-mode) .contact-form-box h3,
+body:not(.dark-mode) .location-info h4 {
+  color: #1e1e1e;
+}
+
+body:not(.dark-mode) .location-info p {
+  color: #666;
+}
+
+/* =========================================================
+INPUTS
+========================================================= */
+
+body:not(.dark-mode) input,
+body:not(.dark-mode) textarea {
+  background: #f8fafc;
+
+  color: #1e1e1e;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body:not(.dark-mode) input::placeholder,
+body:not(.dark-mode) textarea::placeholder {
+  color: #888;
+}
+
+/* =========================================================
+FOOTER
+========================================================= */
+
+body:not(.dark-mode) .footer {
+  background: linear-gradient(to bottom, #07111d, #040b14);
+
+  color: #fff;
+}
+
+body:not(.dark-mode) .footer-brand h3,
+body:not(.dark-mode) .footer-links h4 {
+  color: #fff;
+}
+
+body:not(.dark-mode) .footer-brand p,
+body:not(.dark-mode) .footer-links ul li,
+body:not(.dark-mode) .footer-links ul li a,
+body:not(.dark-mode) .footer-bottom p,
+body:not(.dark-mode) .footer-policy a {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+body:not(.dark-mode) .footer-policy a:hover,
+body:not(.dark-mode) .footer-links ul li a:hover {
+  color: var(--accent);
+}
+
+body:not(.dark-mode) .footer-socials a {
+  background: rgba(255, 255, 255, 0.05);
+
+  color: #fff;
+}
+
+body:not(.dark-mode) .footer-socials a:hover {
+  background: var(--accent);
+
+  color: #fff;
+}
+
+/* =========================================================
+LIGHT MODE FIXES
+========================================================= */
+
+/* =========================================
+REAL GALLERY TITLES
+========================================= */
+
+body:not(.dark-mode) .real-gallery .section-title h2,
+body:not(.dark-mode) .infinite-scroll .scroll-title h3 {
+  color: var(--primary);
+}
+
+/* span البرتقالي */
+
+body:not(.dark-mode) .real-gallery .section-title span,
+body:not(.dark-mode) .infinite-scroll .scroll-title span {
+  color: var(--accent);
+}
+
+/* =========================================
+INFINITE SCROLL BACKGROUND
+========================================= */
+
+body:not(.dark-mode) .infinite-scroll {
+  background: linear-gradient(to bottom, #00214a, #0a2d5c);
+}
+
+/* العنوان يبقي أبيض فوق الخلفية الكحلي */
+
+body:not(.dark-mode) .infinite-scroll .scroll-title h3 {
+  color: #fff;
+}
+
+/* =========================================
+TESTIMONIALS
+========================================= */
+
+body:not(.dark-mode) .testimonials {
+  background: #ffffff;
+}
+
+/* الكارد نفس لون الخلفية */
+
+body:not(.dark-mode) .testimonial-card {
+  background: #ffffff;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  box-shadow: none;
+}
+
+/* الكلام */
+
+body:not(.dark-mode) .testimonial-card p,
+body:not(.dark-mode) .testimonial-card h4 {
+  color: #1e1e1e;
+}
+
+/* الأسهم */
+
+body:not(.dark-mode) .slider-arrow {
+  background: #00214a;
+
+  border: 1px solid rgba(0, 33, 74, 0.1);
+}
+
+body:not(.dark-mode) .slider-arrow i {
+  color: #fff;
+}
+
+/* =========================================
+CONTACT TITLE
+========================================= */
+
+body:not(.dark-mode) .contact .section-title h2 {
+  color: #ffffff;
+}
+
+/* =========================================
+DARK MODE FIXES
+========================================= */
+
+/* لو الخلفية بيضا في الدارك مود */
+
+.dark-mode .real-gallery .section-title h2,
+.dark-mode .infinite-scroll .scroll-title h3 {
+  color: #ffffff;
+}
+
+/* span */
+
+.dark-mode .real-gallery .section-title span,
+.dark-mode .infinite-scroll .scroll-title span {
+  color: var(--accent);
+}
+
+/* Testimonials */
+
+.dark-mode .testimonial-card {
+  background: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow: none;
+}
+
+/* الأسهم */
+
+.dark-mode .slider-arrow {
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dark-mode .slider-arrow i {
+  color: #fff;
+}
+
+/* Contact Title */
+
+.dark-mode .contact .section-title h2 {
+  color: #ffffff;
+}
+
+/* =========================================================
+REAL GALLERY TITLES
+========================================================= */
+
+body:not(.dark-mode) .real-gallery .scroll-title h3 {
+  color: var(--primary);
+}
+
+body:not(.dark-mode) .real-gallery .scroll-title span {
+  color: var(--accent);
+}
+
+/* =========================================================
+INFINITE SCROLL
+========================================================= */
+
+body:not(.dark-mode) .infinite-scroll {
+  background: linear-gradient(to bottom, #00214a, #0a2d5c);
+}
+
+/* Titles */
+
+body:not(.dark-mode) .infinite-scroll .scroll-title h3 {
+  color: #ffffff;
+}
+
+body:not(.dark-mode) .infinite-scroll .scroll-title span {
+  color: var(--accent);
+}
+
+/* =========================================================
+TESTIMONIALS
+========================================================= */
+
+body:not(.dark-mode) .testimonials {
+  background: #ffffff;
+}
+
+/* CARD */
+
+body:not(.dark-mode) .testimonial-card {
+  background: #ffffff;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  box-shadow: none;
+}
+
+/* TEXT */
+
+body:not(.dark-mode) .testimonial-card p,
+body:not(.dark-mode) .testimonial-card h4 {
+  color: #1e1e1e;
+}
+
+/* الصورة */
+
+body:not(.dark-mode) .testimonial-card img {
+  border: 4px solid rgba(0, 0, 0, 0.06);
+}
+
+/* ARROWS */
+
+body:not(.dark-mode) .slider-arrow {
+  background: var(--primary);
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body:not(.dark-mode) .slider-arrow i {
+  color: #ffffff;
+}
+
+/* =========================================================
+CONTACT TITLE
+========================================================= */
+
+body:not(.dark-mode) .contact .section-title h2 {
+  color: #ffffff;
+}

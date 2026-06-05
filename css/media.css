@@ -123,6 +123,33 @@
   .carousel-control-next {
     display: none !important;
   }
+
+  /* modal */
+  .modal {
+    z-index: 999999 !important;
+  }
+
+  .modal-dialog {
+    z-index: 999999 !important;
+  }
+
+  .custom-contact-modal {
+    z-index: 999999 !important;
+    position: relative;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 42px;
+    height: 42px;
+    z-index: 9999999 !important;
+  }
+
+  .navbar-toggler {
+    z-index: 1 !important;
+  }
 }
 
 /* mobile */

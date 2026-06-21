@@ -214,3 +214,74 @@
     grid-column: span 1;
   }
 }
+
+/* real Gallery */
+
+/* =========================================================
+TABLET
+========================================================= */
+
+@media (max-width: 992px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+
+  .gallery-card.big,
+  .gallery-card.tall,
+  .gallery-card.wide {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+
+  .gallery-overlay h4 {
+    font-size: 20px;
+  }
+}
+
+/* =========================================================
+MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 260px;
+    gap: 18px;
+  }
+
+  .gallery-card.big,
+  .gallery-card.tall,
+  .gallery-card.wide,
+  .gallery-card.small {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+
+  .gallery-card {
+    border-radius: 22px;
+  }
+
+  .gallery-overlay {
+    padding: 20px;
+  }
+
+  .gallery-overlay h4 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
+/* =========================================================
+SMALL MOBILE
+========================================================= */
+
+@media (max-width: 576px) {
+  .gallery-grid {
+    grid-auto-rows: 220px;
+  }
+
+  .gallery-overlay h4 {
+    font-size: 16px;
+  }
+}
